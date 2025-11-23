@@ -1,0 +1,22 @@
+﻿# --- CRITICAL: Ignore Large Files & Datasets ---
+*.zip
+*.rar
+backend/app/Hibiscus*
+
+# --- Python & Backend ---
+__pycache__/
+*.py[cod]
+venv/
+backend/venv/
+.env
+
+# --- Node & React ---
+node_modules/
+build/
+/coverage
+.DS_Store
+
+# --- Logs & IDE ---
+npm-debug.log*
+yarn-debug.log*
+.vscode/
