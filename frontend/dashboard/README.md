@@ -4,8 +4,6 @@
 
 An end-to-end IoT and AI system designed for smart farming. This project integrates a physical rover, real-time environmental monitoring, and Edge AI to detect plant diseases and provide actionable yield-saving insights.
 
-![Dashboard Screenshot](path-to-your-dashboard-screenshot.png)
-
 ## 🚀 Key Features
 * **Autonomous Rover:** Custom-built 4-wheel chassis with obstacle avoidance and soil probing capabilities.
 * **Edge AI Disease Detection:** Custom-trained TensorFlow model running on Raspberry Pi to detect Hibiscus leaf diseases in real-time.
