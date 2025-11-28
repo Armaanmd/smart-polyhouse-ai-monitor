@@ -1,14 +1,15 @@
-🌿 Smart Polyhouse AI Dashboard & Rover
-🏆 3rd Prize Winner - CHIP TO CROP Agritech Hackathon | Team Neural Hackers
+#🌿 Smart Polyhouse AI Dashboard & Rover
+
+##🏆 3rd Prize Winner - CHIP TO CROP Agritech Hackathon | Team Neural Hackers
 
 A fully autonomous "Digital Twin" rover and monitoring system for smart agriculture. This project integrates a physical Raspberry Pi rover, real-time environmental sensing, and Edge AI to detect plant diseases and automate soil health analysis.
 
-📖 Overview
+📖 **Overview**
 Farmers today face unpredictable yields due to a lack of real-time data. We built an end-to-end solution that doesn't just monitor—it acts.
 
 Our system consists of a 4-wheel rover that autonomously navigates polyhouse rows, collecting granular data (Temperature, Humidity, Soil Moisture) and capturing video feeds. A custom-trained AI model processes this feed in real-time to detect diseases (like on Hibiscus leaves) and alerts the farmer via a React-based dashboard.
 
-🚀 Key Features
+🚀 **Key Features**
 🤖 Autonomous Navigation: Custom-coded movement logic for tight rows, including obstacle avoidance using Ultrasonic & IR sensors.
 
 🧠 Edge AI Disease Detection: Runs a custom TensorFlow/Keras model locally on the Raspberry Pi to classify plants as "Healthy" or "Diseased" with 96% accuracy.
@@ -19,7 +20,7 @@ Our system consists of a 4-wheel rover that autonomously navigates polyhouse row
 
 🎮 Remote Override: Manual control tab to drive the rover remotely via the web interface.
 
-🏗️ System Architecture
+🏗️ **System Architecture**
 Code snippet
 
 graph LR
@@ -29,7 +30,7 @@ graph LR
     C -->|TensorFlow| E[AI Model]
     E -->|Predictions| C
     
-🛠️ Tech Stack
+🛠️ **Tech Stack**
 Software
 Backend: Python 3.11, FastAPI, Uvicorn, WebSockets
 
@@ -48,19 +49,19 @@ Actuators: 4x DC Motors with L298N Motor Driver.
 
 Power: 12V Li-ion Battery Pack + 5V Power Bank for Pi.
 
-⚙️ Installation & Setup
+⚙️ **Installation & Setup**
 Prerequisites
 Node.js & npm installed.
 
 Python 3.10+ installed.
 
-1. Clone the Repository
+1.**Clone the Repository**
 Bash
 
 git clone https://github.com/Armaanmd/smart-polyhouse-ai-monitor.git
 cd smart-polyhouse-ai-monitor
 
-2. Backend Setup
+2. **Backend Setup**
 Bash
 
 cd backend
@@ -73,7 +74,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
 
-3. Frontend Setup
+3. **Frontend Setup**
 Bash
 
 cd frontend
