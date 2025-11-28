@@ -4,6 +4,13 @@
 
 A fully autonomous "Digital Twin" rover and monitoring system for smart agriculture. This project integrates a physical Raspberry Pi rover, real-time environmental sensing, and Edge AI to detect plant diseases and automate soil health analysis.
 
+## 📸 Deployed Output
+
+### Rover
+<img width="500" alt="image" src="https://github.com/Armaanmd/smart-polyhouse-ai-monitor/blob/main/rover.jpg" />
+
+[![Dashboard](https://github.com/Armaanmd/smart-polyhouse-ai-monitor/blob/main/live%20demo%20dashboard%20.mp4)]
+
 📖 **Overview**
 
 Farmers today face unpredictable yields due to a lack of real-time data. We built an end-to-end solution that doesn't just monitor—it acts.
