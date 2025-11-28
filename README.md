@@ -94,7 +94,7 @@ npm start
 The dashboard will launch at http://localhost:3000
 
 👥 Team Neural Hackers
-Mohd Armaan Z - Developer & Backend Architect
-Patrick John - Frontend & UI/UX Design
-Prathiban S - Hardware Integration & Robotics
-Dushyant M - Hardware Integration & Robotics
+▫️Mohd Armaan Z - Developer & Backend Architect
+▫️Patrick John - Frontend & UI/UX Design
+▫️Prathiban S - Hardware Integration & Robotics
+▫️Dushyant M - Hardware Integration & Robotics
