@@ -1,6 +1,6 @@
-🌿 #Smart Polyhouse AI Dashboard & Rover
+🌿 # Smart Polyhouse AI Dashboard & Rover
 
-🏆 ##3rd Prize Winner - CHIP TO CROP Agritech Hackathon | Team Neural Hackers
+🏆 ## 3rd Prize Winner - CHIP TO CROP Agritech Hackathon | Team Neural Hackers
 
 A fully autonomous "Digital Twin" rover and monitoring system for smart agriculture. This project integrates a physical Raspberry Pi rover, real-time environmental sensing, and Edge AI to detect plant diseases and automate soil health analysis.
 
