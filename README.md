@@ -1,15 +1,17 @@
-🌿 # Smart Polyhouse AI Dashboard & Rover
+# 🌿Smart Polyhouse AI Dashboard & Rover
 
-🏆 ## 3rd Prize Winner - CHIP TO CROP Agritech Hackathon | Team Neural Hackers
+## 🏆3rd Prize Winner - CHIP TO CROP Agritech Hackathon | Team Neural Hackers
 
 A fully autonomous "Digital Twin" rover and monitoring system for smart agriculture. This project integrates a physical Raspberry Pi rover, real-time environmental sensing, and Edge AI to detect plant diseases and automate soil health analysis.
 
 📖 **Overview**
+
 Farmers today face unpredictable yields due to a lack of real-time data. We built an end-to-end solution that doesn't just monitor—it acts.
 
 Our system consists of a 4-wheel rover that autonomously navigates polyhouse rows, collecting granular data (Temperature, Humidity, Soil Moisture) and capturing video feeds. A custom-trained AI model processes this feed in real-time to detect diseases (like on Hibiscus leaves) and alerts the farmer via a React-based dashboard.
 
 🚀 **Key Features**
+
 🤖 Autonomous Navigation: Custom-coded movement logic for tight rows, including obstacle avoidance using Ultrasonic & IR sensors.
 
 🧠 Edge AI Disease Detection: Runs a custom TensorFlow/Keras model locally on the Raspberry Pi to classify plants as "Healthy" or "Diseased" with 96% accuracy.
@@ -21,6 +23,7 @@ Our system consists of a 4-wheel rover that autonomously navigates polyhouse row
 🎮 Remote Override: Manual control tab to drive the rover remotely via the web interface.
 
 🏗️ **System Architecture**
+
 Code snippet
 
 graph LR
@@ -31,6 +34,7 @@ graph LR
     E -->|Predictions| C
     
 🛠️ **Tech Stack**
+
 Software
 Backend: Python 3.11, FastAPI, Uvicorn, WebSockets
 
